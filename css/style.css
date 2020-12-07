@@ -32,7 +32,22 @@ body {
 }
 
 #home-section .card-form {
-  opacity: 0.6;
+  opacity: 0.7;
 
 }
 
+#home-section .fas {
+  color: #008ed6;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#loginModal {
+  background-color: rgba(255, 255, 255, 0.3)
+}
+
+.modal-content {
+  opacity: 0.8;
+  margin-top: 14.63rem;
+}
