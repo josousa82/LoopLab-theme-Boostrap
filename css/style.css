@@ -48,12 +48,12 @@ body {
 }
 
 .modal-content {
-  opacity: 0.8;
+  opacity: 0.9;
   margin-top: 14.63rem;
 }
 
-@media(max-width: 576px) {
 
+@media(max-width: 576px) {
   #sign_in_btn {
     font-size: 1rem;
     display: contents;
@@ -68,4 +68,15 @@ body {
   .btn:hover {
     color: #ffffff !important;
   }
+}
+
+#explore-section .fas, #share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.mt-minus-5{
+  margin-top: -4.5px !important;
 }
