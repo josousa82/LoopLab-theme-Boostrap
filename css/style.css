@@ -23,17 +23,18 @@ body {
   width: 100%;
   min-height: 700px;
   background: rgba(0, 0, 0, 0.7);
-
 }
 
 #home-section .home-inner {
-  padding-top: 150px;
-
+  padding-top: 100px;
 }
 
 #home-section .card-form {
   opacity: 0.7;
+}
 
+html {
+  scroll-padding-top: 3.6rem;
 }
 
 #home-section .fas {
@@ -47,11 +48,17 @@ body {
   background-color: rgba(255, 255, 255, 0.3)
 }
 
-.modal-content {
+#loginModal {
   opacity: 0.9;
   margin-top: 14.63rem;
 }
 
+#loginModal .close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  margin-top: -0.5rem;
+}
 
 @media(max-width: 576px) {
   #sign_in_btn {
@@ -70,13 +77,14 @@ body {
   }
 }
 
-#explore-section .fas, #share-section .fas {
+#explore-section .fas,
+#share-section .fas {
   background: #333;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
 }
 
-.mt-minus-5{
+.mt-minus-5 {
   margin-top: -4.5px !important;
 }
